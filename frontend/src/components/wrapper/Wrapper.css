@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    color: white;
+    gap: 15px;
+    font-size: 17px;
+}
+.wrapper-area{
+    display: flex;
+    gap: 10px;
+}
+.admin{
+    padding-top: 3px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+@media(max-width:768px){
+    .burger{
+        display: block;
+    }
+    .wrapper-area{
+        display: none;
+}
+}

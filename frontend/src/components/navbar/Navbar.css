@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+#navbar-area .container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media(max-width:768px){
+    .navbar{
+        padding: 0 30px;
+    }
+}
