@@ -1,0 +1,16 @@
+.crad-area {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+@media(max-width:768px){
+    .crad-area{
+        justify-content: center;
+    }
+    .container{
+        text-align: center;
+    }
+}

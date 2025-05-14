@@ -1,0 +1,12 @@
+#hero{
+    background-image: url("https://preview.colorlib.com/theme/foundation/images/hero_1.jpg.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+@media(max-width:768px){
+    #hero{
+        background-size: contain;
+        height: 400px;
+        width: 100%;
+    }
+}

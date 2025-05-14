@@ -1,0 +1,26 @@
+.background{
+    background-color: #4e4e4e;
+    color: white;
+    padding: 15px;
+}
+.head-area{
+    display: flex;
+}
+.background-orange{
+    background-color: #fd5f00;
+     color: white;
+     padding: 15px;
+}
+.background-red{
+    background-color: #a23131;
+     color: white;
+     padding: 15px;
+}
+#head-area .head .background .text{
+    border: 1px solid grey;
+}
+@media(max-width:768px){
+    .head-area{
+        flex-wrap: wrap;
+    }
+}

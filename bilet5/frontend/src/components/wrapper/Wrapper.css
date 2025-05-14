@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.burger{
+    display: none;
+}
+@media(max-width:768px){
+    .burger{
+        display: block;
+        font-size: 30px;
+    }
+    .basket,.admin{
+        display: none;
+    }
+}
