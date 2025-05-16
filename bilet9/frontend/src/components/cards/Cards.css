@@ -1,0 +1,67 @@
+#card-area .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#card-area .container .product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: ceneter;
+}
+
+#card-area .container h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#card-area .container .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card-area .container .line {
+    border-top: 2px solid #7971ea;
+    text-align: center;
+    width: 80px;
+    padding-top: 10px;
+}
+
+#card-area .container .top {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+#card-area .container .top button {
+    padding: 10px;
+    background-color: #7971ea;
+    color: white;
+    letter-spacing: 1.5px;
+    border: none;
+    cursor: pointer;
+}
+
+#card-area .container .top button:hover {
+    background-color: transparent;
+    color: #7971ea;
+    border: 1px solid #7971ea;
+    transform: scale(1.05);
+}
+
+@media(max-width:768px) {
+    #card-area .container .product {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #card-area .container .top {
+        justify-content: center;
+        padding-top: 20px;
+    }
+}

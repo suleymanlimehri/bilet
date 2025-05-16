@@ -1,0 +1,36 @@
+#shipping-area .shipping-cart{
+    display: flex;
+    gap: 20px;
+}
+#shipping-area{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#shipping-area .shipping{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+#shipping-area .icons{
+    font-size: 35px;
+    color: #7971ea;
+}
+#shipping-area .shipping-cart .text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#shipping-area .shipping-cart .text h2{
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+#shipping-area .shipping-cart .text p{
+    color: grey;
+    line-height: 1.5;
+}
+@media(max-width:768px){
+     #shipping-area .shipping{
+        flex-wrap: wrap;
+     }
+}

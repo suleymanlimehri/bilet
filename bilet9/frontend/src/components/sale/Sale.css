@@ -1,0 +1,77 @@
+#sale-area .container {
+    max-width: 1200px;
+    padding: 40px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#sale-area .container .sales {
+    display: flex;
+    gap: 40px;
+}
+
+#sale-area .container .sales .image img {
+    width: 630px;
+    height: 420px;
+}
+
+#sale-area .container .sales .text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+#sale-area .container .sales .text .price {
+    color: #7971ea;
+    font-size: 30px;
+}
+
+#sale-area .container .sales .text .by {
+    color: grey;
+}
+
+#sale-area .container .sales .text .desc {
+    color: grey;
+    line-height: 1.4;
+}
+
+#sale-area .container .sales .text .shop {
+    padding: 10px;
+    background-color: #7971ea;
+    color: white;
+    letter-spacing: 1.5px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+}
+#sale-area .container h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#sale-area .container .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 13px;
+}
+
+#sale-area .container .line {
+    border-top: 2px solid #7971ea;
+    text-align: center;
+    width: 80px;
+    padding-top: 10px;
+}
+
+#sale-area .container .sales .text .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:768px){
+    #sale-area .container .sales{
+        flex-wrap: wrap;
+    }
+}

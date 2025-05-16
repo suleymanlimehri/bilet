@@ -1,0 +1,39 @@
+#image-area .images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+#image-area .images .image img{
+    width: 400px;
+    filter: brightness(50%);
+    height: 450px;
+}
+#image-area .images .image-cart {
+    position: relative;
+}
+#image-area .images .text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+   
+} 
+#image-area .images .text p {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#image-area .images .text H4 {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+@media(max-width:768px){
+    #image-area .images{
+        flex-wrap: wrap;
+    }
+}

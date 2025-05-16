@@ -1,0 +1,41 @@
+#main-area{
+    height: 650px;
+    position: relative;
+    justify-content: end;
+    background-position: center;
+    background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp");
+}
+ #main-area .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: right;
+    width: 350px ;
+    justify-content: center;
+    height: 600px;
+    margin-right: 390px;
+}
+ #main-area .text h1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ #main-area .text p{
+    color: grey;
+    line-height: 2;
+}
+ #main-area .text button{
+    background-color: #7971ea;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 120px;
+    cursor: pointer;
+
+}
+@media(max-width:768px){
+     #main-area .text{
+        margin: 0;
+     }
+}

@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+input[type="url"],
+input[type="text"] {
+    height: 35px;
+}

@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    border-bottom: 1px solid #8C92a0;
+}
+.wrapper{
+    display: flex;
+    gap: 17px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #8C92a0;
+}
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    border: 1px solid black;
+    width: 130px;
+}
+.burger{
+    display: none;
+}
+@media(max-width:768px){
+    .burger{
+        display: block;
+        font-size: 25px;
+    }
+    .basket,.user,.heart{
+        display: none;
+    }
+}

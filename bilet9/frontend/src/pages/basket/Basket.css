@@ -1,0 +1,27 @@
+tr,td{
+    vertical-align: middle;
+}
+Table{
+    text-align: center;
+}
+.descbtn{
+    height: 30px;
+    width: 50px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    background-color:  #7971ea;
+}
+.count-area{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.remove{
+    color: white;
+    border: none;
+    font-weight: bold;
+    background-color:  #7971ea;
+    padding: 10px;
+    border-radius: 10px;
+}

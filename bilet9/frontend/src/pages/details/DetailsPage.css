@@ -1,0 +1,24 @@
+#cards-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#cards-area .card-image{
+    display: flex;
+    gap: 20px;
+}
+#cards-area .card-image .text{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+#cards-area .card-image .text button{
+   padding: 10px;
+    width: 120px;
+    background-color: #7971ea;
+    color: white;
+    letter-spacing: 1.5px;
+    border: none;
+    cursor: pointer;
+}
