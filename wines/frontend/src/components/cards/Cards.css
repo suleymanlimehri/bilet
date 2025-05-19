@@ -1,0 +1,60 @@
+#card-area .product{
+    display: flex;
+    gap: 20px;
+    padding: 30px 0;
+}
+#card-area .container{
+    padding: 40px;
+    max-width: 900px;
+}
+#card-area .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#card-area .sort{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+#card-area .sort button{
+    padding: 10px;
+    background-color: #930077;
+    border: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1.5px; 
+}
+#card-area .sort button:hover{
+   border: 1px solid #930077;
+   color: #930077;
+   background-color: transparent;
+}
+#card-area .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+@media(max-width:768px){
+    #card-area .top, #card-area .content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #card-area .content{
+        gap: 10px;
+    }
+    #card-area .top{
+        justify-content: center;
+        align-items: center;
+    }
+    #card-area .top input[type="search"]{
+        width: 200px;
+        height: 40px;
+    }
+    #card-area .product{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

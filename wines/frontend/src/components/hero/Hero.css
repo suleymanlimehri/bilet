@@ -1,0 +1,46 @@
+#hero-area .image img{
+    width: 900px;
+    height: 600px;
+}
+#hero-area .container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+#hero-area .image{
+     filter: brightness(50%);
+}
+#hero-area .wine{
+    position: relative;
+}
+#hero-area .text{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    left: 40%;
+    color: white;
+    top: 0;
+}
+#hero-area .text p{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 0;
+}
+#hero-area .text h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+#hero-area{
+    padding: 0 20px;
+}
+@media(max-width:768px){
+    #hero-area .container,#hero-area{
+        padding: 0;
+    }
+    #hero-area .image img{
+        width: 100%;
+    }
+}

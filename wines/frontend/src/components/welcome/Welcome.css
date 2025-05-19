@@ -1,0 +1,41 @@
+#welcome-area .welcome{
+    position: relative;
+}
+#welcome-area{
+    padding: 30px 0;
+}
+#welcome-area .welcome .image{
+    background-size: cover;
+    filter: brightness(50%);
+}
+#welcome-area .welcome .image img{
+    height: 500px;
+    width: 100%;
+}
+#welcome-area .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+#welcome-area .text p,#welcome-area .text h2{
+    margin: 0;
+}
+#welcome-area .text p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#welcome-area .text h2{
+    width: 330px;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

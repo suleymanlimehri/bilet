@@ -1,0 +1,22 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+    padding-bottom: 20px;
+}
+input[type="url"],input[type="text"]{
+    height: 40px;
+}
+form button{
+    padding: 10px;
+    background-color: #930077;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    border: 1px solid #930077;
+   color: #930077;
+   background-color: transparent;
+}

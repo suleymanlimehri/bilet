@@ -1,0 +1,41 @@
+#image-area .images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#image-area{
+    padding: 40px;
+}
+#image-area .images .image-cart .image img{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+#image-area .images .image-cart .text p{
+    width: 232px;
+    color: grey;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+#image-area .images .image-cart .text span{
+    color:  #930077;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-variant: small-caps;
+}
+#image-area .images .image-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:768px){
+    #image-area .images{
+        flex-wrap: wrap;
+    }
+}

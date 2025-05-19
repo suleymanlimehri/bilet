@@ -1,0 +1,38 @@
+.cart .text .add{
+    padding: 10px;
+    background-color: #930077;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.cart{
+    width: 600px;
+}
+.cart .image{
+    display: flex;
+    justify-content: center;
+}
+.cart .image img{
+    width: 200px;
+    height: 200px;
+}
+.cart .text h2{
+    font-size: 17px;
+    margin: 0;
+}
+.cart .text p{
+    margin: 0;
+}
+.cart .text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+#card-area .text .add:hover{
+   border: 1px solid #930077;
+   color: #930077;
+   background-color: transparent;
+}

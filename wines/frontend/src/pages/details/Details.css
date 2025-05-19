@@ -1,0 +1,31 @@
+#details-area .text .add{
+    padding: 10px;
+    background-color: #930077;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#details-area .text .add:hover{
+   border: 1px solid #930077;
+   color: #930077;
+   background-color: transparent;
+}
+#details-area .container{
+   display: flex;
+   margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+#details-area .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 780px;
+    border-radius: 10px;
+    border: 1px solid black;
+    gap: 20px; 
+}
+#details-area .text{
+    width: 400px;
+}
