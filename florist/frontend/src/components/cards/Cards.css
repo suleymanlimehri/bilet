@@ -1,0 +1,51 @@
+#card-area .products{
+    display: flex;
+    padding: 30px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#card-area{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#card-area .top{
+    text-align: center;
+    padding: 20px;
+}
+#card-area .searchsort{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+#card-area .searchsort input[type="search"]{
+    height: 40px;
+    border: 1px solid #f45d96;
+    border-radius: 10px;
+}
+#card-area .button{
+    display: flex;
+    gap: 20px;
+}
+#card-area .button button{
+    background-color: #f45d96;
+    padding: 10px;
+    width: 120px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+#card-area .button button:hover{
+    border: 1px solid #f45d96;
+    color: #f45d96;
+    background-color: transparent;
+}
+@media(max-width:768px){
+    #card-area .products{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,24 @@
+#icon-area .icons{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+#icon-area .icon{
+    display: flex;
+    gap: 20px;
+}
+#icon-area .icon .text h3{
+    font-size: 20px;
+}
+#icon-area .icon .text p{
+    width: 227px;
+    color: rgb(160, 156, 156);
+}
+@media(max-width:768px){
+    #icon-area .icons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,53 @@
+#hero-area {
+    background-image: url("https://preview.colorlib.com/theme/florist/img/hero/hero-1.jpg");
+    background-position: center;
+    height: 400px;
+}
+
+#hero-area .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 400px;
+    justify-content: center;
+    padding: 150px;
+    gap: 10px;
+}
+
+#hero-area .text h2,
+#hero-area .text p {
+    margin: 0;
+}
+
+#hero-area .text h2 {
+    width: 363px;
+    font-weight: 400;
+}
+
+#hero-area .text button {
+    background-color: #f45d96;
+    padding: 10px;
+    width: 120px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+#hero-area .text button:hover {
+    border: 1px solid #f45d96;
+    color: #f45d96;
+    background-color: transparent;
+}
+
+@media(max-width:768px) {
+    #hero-area .text {
+        padding: 20px;
+    }
+
+    #hero-area .text button {
+        margin-bottom: 60px;
+    }
+}

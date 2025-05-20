@@ -1,0 +1,16 @@
+#details-area .product {
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+ #details-area .product .text button {
+    background-color: #f45d96;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}

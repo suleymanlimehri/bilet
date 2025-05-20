@@ -1,0 +1,11 @@
+.links{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+@media(max-width:768px){
+    .links{
+        display: none;
+    }
+}
