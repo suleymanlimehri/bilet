@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.863);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.logo{
+    font-size: 25px;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-variant: small-caps;
+    padding: 10px;
+}
+.wrapper{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    cursor:pointer;
+}
+.burger{
+    display: none;
+}
+@media(max-width:768px){
+    .burger{
+        display: block;
+        font-size: 25px;
+    }
+    .basket,.admin,.navlist{
+        display: none;
+    }
+}

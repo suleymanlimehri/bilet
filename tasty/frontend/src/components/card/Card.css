@@ -1,0 +1,22 @@
+.Card .text h2 {
+    font-size: 20px;
+}
+
+.Card .cards {
+    display: flex;
+    gap: 20px;
+    width: 565px;
+    padding: 20px;
+}
+
+.Card {
+    margin: 10px 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+#card-area .price button {
+    background-color: #FFB400;
+    color: white;
+    border: none;
+    padding: 10px;
+}

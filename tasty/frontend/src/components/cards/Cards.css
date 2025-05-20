@@ -1,0 +1,39 @@
+#card-area .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#card-area .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#card-area .top{
+    display: flex;
+    justify-content: space-around;
+}
+#card-area .top input[type="search"]{
+    height: 40px;
+}
+#card-area .top .button{
+    display: flex;
+    gap: 20px;
+    letter-spacing: 1.5px;
+}
+#card-area .menu{
+    text-align: center;
+    padding: 20px 0;
+}
+#card-area .top .button button{
+    background-color: #FFB400;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+@media(max-width:768px){
+    #card-area .cards{
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+}

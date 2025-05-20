@@ -1,0 +1,39 @@
+#hero-area{
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg.webp");
+    height: 600px;
+}
+#hero-area .text{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+#hero-area .text h2{
+    font-variant: small-caps;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+#hero-area .text button{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+    font-variant: small-caps;
+
+}
+#hero-area .text button:hover{
+    background-color: #FFB400;
+    color: white;
+}
+@media(max-width:768px){
+    #hero-area .text h2{
+        text-align: center;
+    }
+}
