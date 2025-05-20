@@ -1,0 +1,11 @@
+tr,td{
+    vertical-align: middle;
+}
+Table{
+    text-align: center;
+}
+.count{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

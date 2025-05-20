@@ -1,0 +1,22 @@
+tr,td{
+    vertical-align: middle;
+}
+Table{
+    text-align: center;
+}
+form input{
+    height: 40px;
+}
+form{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    width: 600px;
+    flex-direction: column;
+}
+form button{
+     background-color: #FFB400;
+    color: white;
+    border: none;
+    padding: 10px;
+}

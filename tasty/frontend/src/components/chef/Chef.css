@@ -1,0 +1,41 @@
+#chef-area .chef{
+    display: flex;
+    gap: 30px;
+    padding:0 40px;
+    justify-content: center;
+    align-items: center;
+}
+#chef-area .chef .image img{
+    width: 570px;
+    height: 650px;
+}
+#chef-area .chef .text{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#chef-area .chef .text .top p{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+#chef-area .chef .text .top h2{
+    font-weight: 400;
+}
+#chef-area .bottom p{
+    color: grey;
+    line-height: 2;
+}
+@media(max-width:768px){
+    #chef-area .chef{
+        flex-wrap: wrap;
+    }
+    #chef-area .chef  .text{
+        width: 495px;
+    }
+    #chef-area .chef .image img{
+        width: 478px;
+        height: 350px;
+    }
+}
