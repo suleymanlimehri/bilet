@@ -1,0 +1,31 @@
+#details-area .details{
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#details-area .detail{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#details-area .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+#details-area .text button{
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px;
+    border: none;
+    width: 150px;
+}
+@media(max-width:768px){
+    #details-area .details{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

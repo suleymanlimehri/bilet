@@ -1,0 +1,79 @@
+#book-area .book{
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    padding: 50px;
+    margin: 0 auto;
+}
+#book-area .text-image{
+    position: relative;
+    filter: brightness(90%);
+}
+#book-area .text-image .content{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#book-area .text-image .content .beauty{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#book-area .text-image .content .look{
+    font-weight: bold;
+    margin: 0;
+    font-size: 50px;
+}
+#book-area .text-image .content .view{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+#book-area .text-right{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#book-area .text-right .content{
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#book-area .text-right .prices{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#book-area .text-right .prices .price{
+    padding: 10px;
+    border: 1px solid grey;
+    width: 60px;
+    text-align: center;
+}
+@media(max-width:768px){
+    #book-area .book{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width:390px){
+    #book-area .text-image img {
+        padding: 30px;
+    }
+    #book-area .text-right .image img{
+           width: 100%;
+    }
+}

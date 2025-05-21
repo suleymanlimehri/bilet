@@ -1,0 +1,26 @@
+#blog-area .blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#blog-area .blogs{
+    display: flex;
+    gap: 20px;
+    padding: 80px;
+    margin: 0 auto;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+#blog-area .blog .text{
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+    flex-direction: column;
+}
+@media(max-width:768px){
+    #blog-area .blogs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

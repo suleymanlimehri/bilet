@@ -1,0 +1,22 @@
+#insta-area h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+#insta-area .insta{
+    padding-top: 60px;
+}
+#insta-area .image{
+    display: flex;
+}
+#insta-area .image img{
+    width: 300px;
+    height: 250px;
+}
+@media(max-width:768px){
+    #insta-area .image{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

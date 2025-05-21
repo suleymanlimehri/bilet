@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+  color: black !important; 
+  
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+ 
+}
+li:hover{
+  border-bottom: 1px solid black;
+  width: 55px;
+  color: red;
+}
+p{
+  margin: 0;
+  padding: 0;
+  
+}

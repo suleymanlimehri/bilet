@@ -1,0 +1,36 @@
+tr,
+td {
+    vertical-align: middle;
+}
+
+Table {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    padding: 20px 0;
+}
+form input{
+    height: 40px;
+    padding: 10px;
+}
+.admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.error{
+    color: red;
+    
+}
