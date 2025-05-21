@@ -1,0 +1,21 @@
+#details-area .cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#details-area .image .image-card{
+    width: 550px;
+    height: 400px;
+}
+#details-area .text button{
+        padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #ec1d25;
+    color: #ec1d25;
+    width: 150px;
+    cursor: pointer;
+}

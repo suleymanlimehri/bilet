@@ -1,0 +1,10 @@
+.links{
+    display: flex;
+    gap: 20px;
+    letter-spacing: 1.5px;
+}
+@media(max-width:768px){
+    .links{
+        display: none;
+    }
+}

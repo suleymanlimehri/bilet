@@ -1,0 +1,15 @@
+#card-area .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#card-area{
+    padding: 50px;
+    display: flex;
+     
+    max-width: 1600px;
+    margin: 0 auto;
+}

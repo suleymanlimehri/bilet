@@ -1,0 +1,50 @@
+#reviews-area  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+#reviews-area .text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    flex-direction: column;
+}
+#reviews-area .text .custom{
+     font-family: "Courgette";
+     font-size: 25px;
+     color: #ec1d25;
+}
+#reviews-area .text .review{
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#reviews-area .text p,#reviews-area .text h3{
+    margin: 0;
+}
+#reviews-area .image-card .image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+#reviews-area .image-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+#reviews-area .image-content .desc{
+    width: 687px;
+    color: grey;
+}
+@media(max-width:390px){
+    #reviews-area .text .desc{
+        width: 300px;
+        text-align: center;
+    }
+}
+
+  

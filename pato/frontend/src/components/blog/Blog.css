@@ -1,0 +1,58 @@
+#blog-area .image-card{
+    display: flex;
+    gap: 25px;
+}
+#blog-area p,h4{
+    margin: 0;
+}
+#blog-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#blog-area .top{
+    text-align: center;
+    padding: 40px 0;
+}
+#blog-area .top p{
+    font-family: "Courgette";
+     font-size: 25px;
+     color: #ec1d25;
+}
+#blog-area .top h3{
+    padding-top: 15px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#blog-area .text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+}
+#blog-area .text h4{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+    #blog-area .image-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width:390px){
+    body{
+        text-align: center;
+    }
+    #blog-area .image-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #blog-area .image-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+#hero-area{
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%);
+    background-image: url("https://preview.colorlib.com/theme/pato/images/slide1-01.jpg");
+}
+#hero-area .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    gap: 20px;
+}
+#hero-area .text p{
+    font-family: "Courgette";
+    font-size: 50px;
+}
+#hero-area .text h2{
+    font-size: 120px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hero-area .text button{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: #ec1d25;
+    width: 150px;
+}
+@media(max-width:768px){
+    #hero-area{
+        background-size: cover;
+    }
+    #hero-area .text{
+        text-align: center;
+    }
+}
+@media(max-width:390px){
+    #hero-area{
+        background-size: cover;
+    }
+    #hero-area .text{
+        text-align: center;
+    }
+}

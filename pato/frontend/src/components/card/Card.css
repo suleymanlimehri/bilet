@@ -1,0 +1,42 @@
+#card-area .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#card-area .cards .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+
+#card-area .cards .text p,
+#card-area .cards .text h2 {
+    margin: 0;
+}
+
+#card-area .price {
+    font-weight: bold;
+}
+#card-area .image .image-card{
+  width:400px;
+  height:237px
+}
+#card-area .text button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #ec1d25;
+    color: #ec1d25;
+    width: 150px;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    #card-area .cards .text {
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+}
